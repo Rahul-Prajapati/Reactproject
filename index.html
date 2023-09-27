@@ -7,7 +7,9 @@
     <title>Namaste React</title>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">
+        <h1>Not Rendered</h1>
+    </div>
     <!-- <script>
         const heading = document.createElement("h1");
         heading.innerHTML = "Hello World by JavaScript";
@@ -19,14 +21,14 @@
 <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
 
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
 
 <!-- <script>
     const heading = React.createElement("h1", {},"Hello World in React!");
     const root = ReactDOM.createRoot(document.getElementById("root"));
     root.render(heading);
 </script> -->
-<script src="./App.js"></script>
+<script type="module" src="./App.js"></script>
 </body>
 </html>
